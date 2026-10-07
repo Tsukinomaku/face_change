@@ -1,0 +1,12 @@
+:root { color-scheme: dark; font-family: "Segoe UI", "Yu Gothic", sans-serif; background: #181818; color: #eee; }
+body { margin: 0; }
+main { width: min(800px, calc(100% - 24px)); margin: 20px auto; }
+h1 { margin: 0; font-size: 23px; font-weight: 600; }
+h1 span { font-size: 14px; color: #8dca9a; margin-left: 10px; }
+header p { color: #aaa; font-size: 13px; margin: 8px 0 14px; }
+#sketch canvas { display: block; max-width: 100%; height: auto !important; touch-action: none; }
+#sketch canvas:focus { outline: 1px solid #75967d; outline-offset: 2px; }
+#status { min-height: 1.6em; font-size: 13px; color: #a4d5b0; overflow-wrap: anywhere; }
+#status.error { color: #ffa1a1; }
+details { border-top: 1px solid #3d3d3d; padding: 12px 0; color: #bbb; font-size: 13px; line-height: 1.7; }
+summary { cursor: pointer; }
